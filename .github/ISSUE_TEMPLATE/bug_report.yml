@@ -1,0 +1,37 @@
+name: Ошибка
+description: Сообщить о проблеме в календаре
+title: "[Ошибка] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Что произошло?
+      description: Что ожидалось и что произошло на самом деле?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Как повторить?
+      placeholder: "1. Открыть календарь…"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Версия приложения
+      placeholder: "1.2"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Устройство и версия Android
+      placeholder: "Модель, Android 15"
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Дополнительно
+      description: Скриншот, масштаб шрифта, ориентация экрана. Не прикладывайте пароли и ключи подписи.

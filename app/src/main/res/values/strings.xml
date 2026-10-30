@@ -1,0 +1,14 @@
+<resources>
+    <string name="month_heading">%1$s %2$d</string>
+    <string name="today_title">Сегодня:</string>
+    <string name="today_description">Сегодня: %1$s. Вернуться к текущему месяцу</string>
+    <string name="current_date_suffix">, сегодня</string>
+    <string name="settings">Настройки</string>
+    <string name="dark_theme">Тёмная тема</string>
+    <string name="auto_update">Обновлять дату</string>
+    <string name="interval_value">Интервал: %1$d с</string>
+    <string name="interval_description">Интервал обновления, от 1 до 60 секунд</string>
+    <string name="auto_on_hint">От 1 до 60 секунд. Работает только пока календарь открыт.</string>
+    <string name="auto_off_hint">Автообновление выключено. Дата проверяется при открытии и нажатии «Сегодня».</string>
+    <string name="done">Готово</string>
+</resources>

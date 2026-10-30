@@ -1,0 +1,51 @@
+# Gradle / Android build outputs
+.gradle/
+.kotlin/
+**/build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Android Studio / editors
+.idea/
+*.iml
+.vscode/
+*.swp
+*~
+
+# Signing material / credentials — never publish
+signing/
+keystore.properties
+key.properties
+secrets.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+*.asc
+password.txt
+passwords.txt
+.env
+.env.*
+private-key-backup*
+
+# Generated distributions / reports
+*.apk
+*.aab
+*.apks
+*.idsig
+dist/
+release-assets/
+build-info/
+baseline/
+ui-test-output/
+*.log
+__pycache__/
+*.py[cod]
+
+# OS files
+.DS_Store
+Thumbs.db
